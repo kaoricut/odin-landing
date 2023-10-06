@@ -152,3 +152,27 @@ html {
   margin-bottom: 16px;
   border-radius: 16px;
 }
+
+.section__testimonial {
+  background-color: #e5e7eb;
+  color: #1f2937;
+}
+
+.testimonial__container {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.testimonial__text {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.testimonial__author {
+  font-size: 24px;
+  font-weight: 700;
+  align-self: flex-end;
+}
