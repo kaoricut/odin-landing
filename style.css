@@ -116,6 +116,11 @@ html {
   background: #3882f6;
 }
 
+.btn_empty {
+  border: 3px solid #f9faf8;
+  background: none;
+}
+
 /* Main */
 .section {
   padding: 72px 0;
@@ -175,4 +180,23 @@ html {
   font-size: 24px;
   font-weight: 700;
   align-self: flex-end;
+}
+
+.cta-box {
+  background-color: #3882f6;
+  border-radius: 12px;
+  padding: 48px 128px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #f9faf8;
+}
+
+.heading-tertiary {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.cta-box__heading {
+  margin-bottom: 8px;
 }
